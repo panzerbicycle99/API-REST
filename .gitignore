@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Carpetas de compilación
+dist/
+build/
+
+# Configuración del editor
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Solo permitir el archivo de graduacion en la raiz
+/*
+!/.gitignore
+!/index.html
