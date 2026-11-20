@@ -23,6 +23,13 @@ build/
 Thumbs.db
 
 # Solo permitir el archivo de graduacion en la raiz
+#/*
+#!/.gitignore
+#!/index.html
+
+# Permitir solo AplicacionBoletos/ProyectoFinalP2-master
 /*
 !/.gitignore
-!/index.html
+!/AplicacionBoletos/
+/AplicacionBoletos/*
+!/AplicacionBoletos/ProyectoFinalP2-master/
