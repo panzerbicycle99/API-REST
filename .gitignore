@@ -21,8 +21,16 @@ build/
 # Archivos del sistema
 .DS_Store
 Thumbs.db
-
-# Solo permitir el archivo de graduacion en la raiz
 /*
 !/.gitignore
-!/index.html
+
+
+# Solo permitir la API de AplicacionBoletos
+!/AplicacionBoletos/
+/AplicacionBoletos/*
+!/AplicacionBoletos/APIRest/
+/AplicacionBoletos/APIRest/*
+!/AplicacionBoletos/APIRest/app/
+!/AplicacionBoletos/APIRest/package.json
+!/AplicacionBoletos/APIRest/server.js
+
